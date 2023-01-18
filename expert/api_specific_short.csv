@@ -1,0 +1,321 @@
+general,specific,api_name_fk,expert
+JSci,maths,JSci.maths.statistics.ProbabilityDistribution,Util
+accumulo,core,org.apache.accumulo.core.client.AccumuloException,Big Data
+accumulo,core,org.apache.accumulo.core.client.AccumuloSecurityException,Big Data
+accumulo,core,org.apache.accumulo.core.client.BatchScanner,Big Data
+accumulo,core,org.apache.accumulo.core.client.BatchWriter,Big Data
+accumulo,core,org.apache.accumulo.core.client.BatchWriterConfig,Big Data
+accumulo,core,org.apache.accumulo.core.client.Connector,Big Data
+accumulo,core,org.apache.accumulo.core.client.Instance,Big Data
+accumulo,core,org.apache.accumulo.core.client.IteratorSetting,Big Data
+accumulo,core,org.apache.accumulo.core.client.MutationsRejectedException,Big Data
+accumulo,core,org.apache.accumulo.core.client.NamespaceExistsException,Big Data
+accumulo,core,org.apache.accumulo.core.client.Scanner,Big Data
+accumulo,core,org.apache.accumulo.core.client.TableExistsException,Big Data
+accumulo,core,org.apache.accumulo.core.client.TableNotFoundException,Big Data
+accumulo,core,org.apache.accumulo.core.client.ZooKeeperInstance,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.BytesLexicoder,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.DoubleLexicoder,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.Lexicoder,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.ListLexicoder,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.LongLexicoder,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.StringLexicoder,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.impl.ByteUtils.concat,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.impl.ByteUtils.escape,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.impl.ByteUtils.split,Big Data
+accumulo,core,org.apache.accumulo.core.client.lexicoder.impl.ByteUtils.unescape,Big Data
+accumulo,core,org.apache.accumulo.core.client.mock.MockInstance,Big Data
+accumulo,core,org.apache.accumulo.core.client.security.tokens.PasswordToken,Big Data
+accumulo,core,org.apache.accumulo.core.data.ColumnUpdate,Big Data
+accumulo,core,org.apache.accumulo.core.data.Key,Big Data
+accumulo,core,org.apache.accumulo.core.data.Mutation,Big Data
+accumulo,core,org.apache.accumulo.core.data.PartialKey,Big Data
+accumulo,core,org.apache.accumulo.core.data.Range,Big Data
+accumulo,core,org.apache.accumulo.core.data.Value,Big Data
+accumulo,core,org.apache.accumulo.core.iterators.Combiner,Big Data
+accumulo,core,org.apache.accumulo.core.iterators.FirstEntryInRowIterator,Big Data
+accumulo,core,org.apache.accumulo.core.iterators.IteratorUtil.IteratorScope,Big Data
+accumulo,core,org.apache.accumulo.core.iterators.LongCombiner,Big Data
+accumulo,core,org.apache.accumulo.core.iterators.TypedValueCombiner,Big Data
+accumulo,core,org.apache.accumulo.core.iterators.user.SummingCombiner,Big Data
+accumulo,core,org.apache.accumulo.core.iterators.user.WholeRowIterator,Big Data
+accumulo,core,org.apache.accumulo.core.security.Authorizations,Big Data
+accumulo,core,org.apache.accumulo.core.security.ColumnVisibility,Big Data
+accumulo,minicluster,org.apache.accumulo.minicluster.MemoryUnit.MEGABYTE,Big Data
+accumulo,minicluster,org.apache.accumulo.minicluster.MiniAccumuloCluster,Big Data
+accumulo,minicluster,org.apache.accumulo.minicluster.MiniAccumuloConfig,Big Data
+accumulo,minicluster,org.apache.accumulo.minicluster.impl.MiniAccumuloConfigImpl,Big Data
+airhacks,afterburner,com.airhacks.afterburner.injection.Injector,UI
+airhacks,afterburner,com.airhacks.afterburner.injection.PresenterFactory,UI
+airhacks,afterburner,com.airhacks.afterburner.views.ResourceLocator,UI
+airhacks,afterburner,com.airhacks.afterburner.views.ViewLoader,UI
+airlift,bootstrap,com.facebook.airlift.bootstrap.Bootstrap,DevOps
+airlift,bootstrap,com.facebook.airlift.bootstrap.LifeCycleManager,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.BoundedExecutor,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.ConcurrentScheduledExecutor.createConcurrentScheduledExecutor,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.ExecutorServiceAdapter,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.ExtendedSettableFuture,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.addExceptionCallback,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.addSuccessCallback,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.addTimeout,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.allAsList,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.failedFuture,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.getDone,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.getFutureValue,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.toCompletableFuture,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.toListenableFuture,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.tryGetFutureValue,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.unmodifiableFuture,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.whenAnyComplete,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.MoreFutures.whenAnyCompleteCancelOthers,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.SetThreadName,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.ThreadLocalCache,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.ThreadPoolExecutorMBean,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.Threads,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.Threads.daemonThreadsNamed,DevOps
+airlift,concurrent,com.facebook.airlift.concurrent.Threads.threadsNamed,DevOps
+airlift,configuration,com.facebook.airlift.configuration.AbstractConfigurationAwareModule,DevOps
+airlift,configuration,com.facebook.airlift.configuration.ConditionalModule.installModuleIf,DevOps
+airlift,configuration,com.facebook.airlift.configuration.Config,DevOps
+airlift,configuration,com.facebook.airlift.configuration.ConfigBinder.configBinder,DevOps
+airlift,configuration,com.facebook.airlift.configuration.ConfigDescription,DevOps
+airlift,configuration,com.facebook.airlift.configuration.ConfigSecuritySensitive,DevOps
+airlift,configuration,com.facebook.airlift.configuration.ConfigurationAwareModule,DevOps
+airlift,configuration,com.facebook.airlift.configuration.ConfigurationFactory,DevOps
+airlift,configuration,com.facebook.airlift.configuration.DefunctConfig,DevOps
+airlift,configuration,com.facebook.airlift.configuration.LegacyConfig,DevOps
+airlift,configuration,com.facebook.airlift.configuration.testing.ConfigAssertions,DevOps
+airlift,configuration,com.facebook.airlift.configuration.testing.ConfigAssertions.assertDeprecatedEquivalence,DevOps
+airlift,configuration,com.facebook.airlift.configuration.testing.ConfigAssertions.assertFullMapping,DevOps
+airlift,configuration,com.facebook.airlift.configuration.testing.ConfigAssertions.assertRecordedDefaults,DevOps
+airlift,configuration,com.facebook.airlift.configuration.testing.ConfigAssertions.recordDefaults,DevOps
+airlift,dbpool,com.facebook.airlift.dbpool.H2EmbeddedDataSourceModule,DevOps
+airlift,dbpool,com.facebook.airlift.dbpool.MySqlDataSource,DevOps
+airlift,dbpool,com.facebook.airlift.dbpool.MySqlDataSourceConfig,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.Announcer,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.DiscoveryBinder.discoveryBinder,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.DiscoveryModule,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceAnnouncement,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceAnnouncement.ServiceAnnouncementBuilder,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceAnnouncement.serviceAnnouncement,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceDescriptor,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceDescriptor.serviceDescriptor,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceDescriptorsRepresentation,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceSelector,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceSelectorConfig.DEFAULT_POOL,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceSelectorManager,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceType,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.ServiceTypes.serviceType,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.testing.StaticServiceSelector,DevOps
+airlift,discovery,com.facebook.airlift.discovery.client.testing.TestingDiscoveryModule,DevOps
+airlift,discovery,com.facebook.airlift.discovery.server.EmbeddedDiscoveryModule,DevOps
+airlift,discovery,com.facebook.airlift.discovery.server.testing.TestingDiscoveryServer,DevOps
+airlift,event,com.facebook.airlift.event.client.AbstractEventClient,DevOps
+airlift,event,com.facebook.airlift.event.client.EventClient,DevOps
+airlift,event,com.facebook.airlift.event.client.EventField,DevOps
+airlift,event,com.facebook.airlift.event.client.EventField.EventFieldMapping,DevOps
+airlift,event,com.facebook.airlift.event.client.EventModule,DevOps
+airlift,event,com.facebook.airlift.event.client.EventType,DevOps
+airlift,event,com.facebook.airlift.event.client.HttpEventModule,DevOps
+airlift,event,com.facebook.airlift.event.client.JsonEventModule,DevOps
+airlift,event,com.facebook.airlift.event.client.JsonEventSerializer,DevOps
+airlift,event,com.facebook.airlift.event.client.ServiceUnavailableException,DevOps
+airlift,http,com.facebook.airlift.http.client.BasicAuthRequestFilter,DevOps
+airlift,http,com.facebook.airlift.http.client.BodyGenerator,DevOps
+airlift,http,com.facebook.airlift.http.client.FullJsonResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.FullJsonResponseHandler.JsonResponse,DevOps
+airlift,http,com.facebook.airlift.http.client.FullJsonResponseHandler.createFullJsonResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.HeaderName,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpClient,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpClient.HttpResponseFuture,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpClientBinder.httpClientBinder,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpClientConfig,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpRequestFilter,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpStatus,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpStatus.INTERNAL_SERVER_ERROR,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpStatus.NO_CONTENT,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpStatus.OK,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpStatus.familyForStatusCode,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpUriBuilder,DevOps
+airlift,http,com.facebook.airlift.http.client.HttpUriBuilder.uriBuilderFrom,DevOps
+airlift,http,com.facebook.airlift.http.client.JsonBodyGenerator.jsonBodyGenerator,DevOps
+airlift,http,com.facebook.airlift.http.client.JsonResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.JsonResponseHandler.createJsonResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.Request,DevOps
+airlift,http,com.facebook.airlift.http.client.Request.Builder,DevOps
+airlift,http,com.facebook.airlift.http.client.Request.Builder.fromRequest,DevOps
+airlift,http,com.facebook.airlift.http.client.Request.Builder.prepareDelete,DevOps
+airlift,http,com.facebook.airlift.http.client.Request.Builder.prepareGet,DevOps
+airlift,http,com.facebook.airlift.http.client.Request.Builder.prepareHead,DevOps
+airlift,http,com.facebook.airlift.http.client.Request.Builder.preparePost,DevOps
+airlift,http,com.facebook.airlift.http.client.Request.Builder.preparePut,DevOps
+airlift,http,com.facebook.airlift.http.client.Response,DevOps
+airlift,http,com.facebook.airlift.http.client.ResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.ResponseHandlerUtils.propagate,DevOps
+airlift,http,com.facebook.airlift.http.client.ResponseTooLargeException,DevOps
+airlift,http,com.facebook.airlift.http.client.StaticBodyGenerator,DevOps
+airlift,http,com.facebook.airlift.http.client.StaticBodyGenerator.createStaticBodyGenerator,DevOps
+airlift,http,com.facebook.airlift.http.client.StatusResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.StatusResponseHandler.StatusResponse,DevOps
+airlift,http,com.facebook.airlift.http.client.StatusResponseHandler.createStatusResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.StringResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.StringResponseHandler.StringResponse,DevOps
+airlift,http,com.facebook.airlift.http.client.StringResponseHandler.createStringResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.client.TraceTokenRequestFilter.TRACETOKEN_HEADER,DevOps
+airlift,http,com.facebook.airlift.http.client.UnexpectedResponseException,DevOps
+airlift,http,com.facebook.airlift.http.client.jetty.JettyHttpClient,DevOps
+airlift,http,com.facebook.airlift.http.client.spnego.KerberosConfig,DevOps
+airlift,http,com.facebook.airlift.http.client.testing.TestingHttpClient,DevOps
+airlift,http,com.facebook.airlift.http.client.testing.TestingResponse,DevOps
+airlift,http,com.facebook.airlift.http.client.testing.TestingResponse.contentType,DevOps
+airlift,http,com.facebook.airlift.http.client.thrift.ThriftRequestUtils,DevOps
+airlift,http,com.facebook.airlift.http.client.thrift.ThriftRequestUtils.APPLICATION_THRIFT_BINARY,DevOps
+airlift,http,com.facebook.airlift.http.client.thrift.ThriftRequestUtils.APPLICATION_THRIFT_COMPACT,DevOps
+airlift,http,com.facebook.airlift.http.client.thrift.ThriftRequestUtils.APPLICATION_THRIFT_FB_COMPACT,DevOps
+airlift,http,com.facebook.airlift.http.client.thrift.ThriftResponse,DevOps
+airlift,http,com.facebook.airlift.http.client.thrift.ThriftResponseHandler,DevOps
+airlift,http,com.facebook.airlift.http.server.AsyncResponseHandler.bindAsyncResponse,DevOps
+airlift,http,com.facebook.airlift.http.server.AuthenticationException,DevOps
+airlift,http,com.facebook.airlift.http.server.Authenticator,DevOps
+airlift,http,com.facebook.airlift.http.server.BasicPrincipal,DevOps
+airlift,http,com.facebook.airlift.http.server.CertificateAuthenticator,DevOps
+airlift,http,com.facebook.airlift.http.server.HttpServerBinder.httpServerBinder,DevOps
+airlift,http,com.facebook.airlift.http.server.HttpServerInfo,DevOps
+airlift,http,com.facebook.airlift.http.server.HttpServerModule,DevOps
+airlift,http,com.facebook.airlift.http.server.JsonWebTokenAuthenticator,DevOps
+airlift,http,com.facebook.airlift.http.server.JsonWebTokenConfig,DevOps
+airlift,http,com.facebook.airlift.http.server.KerberosAuthenticator,DevOps
+airlift,http,com.facebook.airlift.http.server.KerberosConfig,DevOps
+airlift,http,com.facebook.airlift.http.server.KerberosConfig.HTTP_SERVER_AUTHENTICATION_KRB5_KEYTAB,DevOps
+airlift,http,com.facebook.airlift.http.server.TheServlet,DevOps
+airlift,http,com.facebook.airlift.http.server.testing.TestingHttpServer,DevOps
+airlift,http,com.facebook.airlift.http.server.testing.TestingHttpServerModule,DevOps
+airlift,jaxrs,com.facebook.airlift.jaxrs.JaxrsBinder.jaxrsBinder,DevOps
+airlift,jaxrs,com.facebook.airlift.jaxrs.JaxrsModule,DevOps
+airlift,jaxrs,com.facebook.airlift.jaxrs.JsonMapper,DevOps
+airlift,jaxrs,com.facebook.airlift.jaxrs.testing.JaxrsTestingHttpProcessor,DevOps
+airlift,jaxrs,com.facebook.airlift.jaxrs.thrift.ThriftMapper,DevOps
+airlift,jmx,com.facebook.airlift.jmx.JmxHttpModule,DevOps
+airlift,jmx,com.facebook.airlift.jmx.JmxModule,DevOps
+airlift,jmx,com.facebook.airlift.jmx.testing.TestingJmxModule,DevOps
+airlift,json,com.facebook.airlift.json.Codec,DevOps
+airlift,json,com.facebook.airlift.json.JsonBinder.jsonBinder,DevOps
+airlift,json,com.facebook.airlift.json.JsonCodec,DevOps
+airlift,json,com.facebook.airlift.json.JsonCodec.jsonCodec,DevOps
+airlift,json,com.facebook.airlift.json.JsonCodec.listJsonCodec,DevOps
+airlift,json,com.facebook.airlift.json.JsonCodec.mapJsonCodec,DevOps
+airlift,json,com.facebook.airlift.json.JsonCodecBinder,DevOps
+airlift,json,com.facebook.airlift.json.JsonCodecBinder.jsonCodecBinder,DevOps
+airlift,json,com.facebook.airlift.json.JsonCodecFactory,DevOps
+airlift,json,com.facebook.airlift.json.JsonModule,DevOps
+airlift,json,com.facebook.airlift.json.JsonObjectMapperProvider,DevOps
+airlift,json,com.facebook.airlift.json.smile.SmileCodec,DevOps
+airlift,json,com.facebook.airlift.json.smile.SmileCodec.smileCodec,DevOps
+airlift,json,com.facebook.airlift.json.smile.SmileCodecBinder.smileCodecBinder,DevOps
+airlift,json,com.facebook.airlift.json.smile.SmileCodecFactory,DevOps
+airlift,json,com.facebook.airlift.json.smile.SmileModule,DevOps
+airlift,log,com.facebook.airlift.log.Level,DevOps
+airlift,log,com.facebook.airlift.log.Level.DEBUG,DevOps
+airlift,log,com.facebook.airlift.log.Level.ERROR,DevOps
+airlift,log,com.facebook.airlift.log.Level.WARN,DevOps
+airlift,log,com.facebook.airlift.log.LogJmxModule,DevOps
+airlift,log,com.facebook.airlift.log.Logger,DevOps
+airlift,log,com.facebook.airlift.log.Logging,DevOps
+airlift,log,com.facebook.airlift.log.LoggingConfiguration,DevOps
+airlift,node,com.facebook.airlift.node.NodeConfig,DevOps
+airlift,node,com.facebook.airlift.node.NodeInfo,DevOps
+airlift,node,com.facebook.airlift.node.NodeModule,DevOps
+airlift,node,com.facebook.airlift.node.testing.TestingNodeModule,DevOps
+airlift,security,com.facebook.airlift.security.pem.PemReader,DevOps
+airlift,security,com.facebook.airlift.security.pem.PemReader.loadKeyStore,DevOps
+airlift,security,com.facebook.airlift.security.pem.PemReader.readCertificateChain,DevOps
+airlift,stats,com.facebook.airlift.stats.CounterStat,DevOps
+airlift,stats,com.facebook.airlift.stats.CpuTimer,DevOps
+airlift,stats,com.facebook.airlift.stats.CpuTimer.CpuDuration,DevOps
+airlift,stats,com.facebook.airlift.stats.DecayCounter,DevOps
+airlift,stats,com.facebook.airlift.stats.Distribution,DevOps
+airlift,stats,com.facebook.airlift.stats.Distribution.DistributionSnapshot,DevOps
+airlift,stats,com.facebook.airlift.stats.DistributionStat,DevOps
+airlift,stats,com.facebook.airlift.stats.ExponentialDecay,DevOps
+airlift,stats,com.facebook.airlift.stats.GarbageCollectionNotificationInfo,DevOps
+airlift,stats,com.facebook.airlift.stats.GcMonitor,DevOps
+airlift,stats,com.facebook.airlift.stats.JmxGcMonitor,DevOps
+airlift,stats,com.facebook.airlift.stats.PauseMeter,DevOps
+airlift,stats,com.facebook.airlift.stats.QuantileDigest,DevOps
+airlift,stats,com.facebook.airlift.stats.TestingGcMonitor,DevOps
+airlift,stats,com.facebook.airlift.stats.TimeDistribution,DevOps
+airlift,stats,com.facebook.airlift.stats.TimeStat,DevOps
+airlift,stats,com.facebook.airlift.stats.cardinality.HyperLogLog,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertBetweenInclusive,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertContains,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertEqualsIgnoreOrder,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertGreaterThan,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertGreaterThanOrEqual,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertInstanceOf,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertLessThan,DevOps
+airlift,testing,com.facebook.airlift.testing.Assertions.assertLessThanOrEqual,DevOps
+airlift,testing,com.facebook.airlift.testing.Closeables,DevOps
+airlift,testing,com.facebook.airlift.testing.Closeables.closeAllRuntimeException,DevOps
+airlift,testing,com.facebook.airlift.testing.Closeables.closeAllSuppress,DevOps
+airlift,testing,com.facebook.airlift.testing.Closeables.closeQuietly,DevOps
+airlift,testing,com.facebook.airlift.testing.EquivalenceTester,DevOps
+airlift,testing,com.facebook.airlift.testing.TempFile,DevOps
+airlift,testing,com.facebook.airlift.testing.TestingTicker,DevOps
+airlift,testing,com.facebook.airlift.testing.ValidationAssertions.assertFailsValidation,DevOps
+airlift,testing,com.facebook.airlift.testing.ValidationAssertions.assertValidates,DevOps
+airlift,testing,com.facebook.airlift.testing.postgresql.TestingPostgreSqlServer,DevOps
+airlift,tracetoken,com.facebook.airlift.tracetoken.TraceTokenModule,DevOps
+alluxio,alluxio,alluxio.ClientContext,Big Data
+alluxio,client,alluxio.client.file.URIStatus,Big Data
+alluxio,client,alluxio.client.file.cache.CacheManager,Big Data
+alluxio,client,alluxio.client.quota.CacheQuota,Big Data
+alluxio,client,alluxio.client.quota.CacheScope,Big Data
+alluxio,client,alluxio.client.table.RetryHandlingTableMasterClient,Big Data
+alluxio,client,alluxio.client.table.TableMasterClient,Big Data
+alluxio,collections,alluxio.collections.ConcurrentHashSet,Big Data
+alluxio,conf,alluxio.conf.InstancedConfiguration,Big Data
+alluxio,conf,alluxio.conf.PropertyKey,Big Data
+alluxio,conf,alluxio.conf.PropertyKey.USER_CLIENT_CACHE_QUOTA_ENABLED,Big Data
+alluxio,exception,alluxio.exception.ExceptionMessage,Big Data
+alluxio,exception,alluxio.exception.status.AlluxioStatusException,Big Data
+alluxio,grpc,alluxio.grpc.table.BinaryColumnStatsData,Big Data
+alluxio,grpc,alluxio.grpc.table.BooleanColumnStatsData,Big Data
+alluxio,grpc,alluxio.grpc.table.ColumnStatisticsData,Big Data
+alluxio,grpc,alluxio.grpc.table.ColumnStatisticsInfo,Big Data
+alluxio,grpc,alluxio.grpc.table.Constraint,Big Data
+alluxio,grpc,alluxio.grpc.table.Date,Big Data
+alluxio,grpc,alluxio.grpc.table.DateColumnStatsData,Big Data
+alluxio,grpc,alluxio.grpc.table.Decimal,Big Data
+alluxio,grpc,alluxio.grpc.table.DecimalColumnStatsData,Big Data
+alluxio,grpc,alluxio.grpc.table.DoubleColumnStatsData,Big Data
+alluxio,grpc,alluxio.grpc.table.FieldSchema,Big Data
+alluxio,grpc,alluxio.grpc.table.Layout,Big Data
+alluxio,grpc,alluxio.grpc.table.LongColumnStatsData,Big Data
+alluxio,grpc,alluxio.grpc.table.StringColumnStatsData,Big Data
+alluxio,grpc,alluxio.grpc.table.layout.hive.PartitionInfo,Big Data
+alluxio,hadoop,alluxio.hadoop.LocalCacheFileSystem,Big Data
+alluxio,master,alluxio.master.MasterClientContext,Big Data
+alluxio,metrics,alluxio.metrics.MetricKey,Big Data
+alluxio,metrics,alluxio.metrics.MetricsSystem,Big Data
+alluxio,shaded,alluxio.shaded.client.com.google.common.base.Preconditions.checkState,Big Data
+alluxio,shaded,alluxio.shaded.client.com.google.protobuf.InvalidProtocolBufferException,Big Data
+alluxio,util,alluxio.util.ConfigurationUtils,Big Data
+alluxio,util,alluxio.util.io.FileUtils,Big Data
+alluxio,wire,alluxio.wire.FileInfo,Big Data
+amazonaws,amazonaws,com.amazonaws.AbortedException,Cloud
+amazonaws,amazonaws,com.amazonaws.AmazonClientException,Cloud
+amazonaws,amazonaws,com.amazonaws.AmazonServiceException,Cloud
+amazonaws,amazonaws,com.amazonaws.AmazonWebServiceClient,Cloud
+amazonaws,amazonaws,com.amazonaws.AmazonWebServiceRequest,Cloud
+amazonaws,amazonaws,com.amazonaws.ClientConfiguration,Cloud
+amazonaws,amazonaws,com.amazonaws.DefaultRequest,Cloud
+amazonaws,amazonaws,com.amazonaws.Protocol,Cloud
+amazonaws,amazonaws,com.amazonaws.Request,Cloud
+amazonaws,amazonaws,com.amazonaws.Response,Cloud
+amazonaws,auth,com.amazonaws.auth.AWS4Signer,Cloud
+amazonaws,auth,com.amazonaws.auth.AWSCredentials,Cloud
+amazonaws,auth,com.amazonaws.auth.AWSCredentialsProvider,Cloud
+amazonaws,auth,com.amazonaws.auth.AWSStaticCredentialsProvider,Cloud
+amazonaws,auth,com.amazonaws.auth.BasicAWSCredentials,Cloud
